@@ -1,6 +1,5 @@
 import React from 'react';
 import CollectionItem from '../../components/collection-item/collection-item.component'
-import {Route} from 'react-router-dom';
 import {selectCollection}from '../../redux/shop/shop.selector';
 import {connect} from 'react-redux';
 import './collection.styles.scss';
