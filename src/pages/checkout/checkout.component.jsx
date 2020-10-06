@@ -41,8 +41,8 @@ const CheckoutPage = ({cartItems, total}) => (
         </div>
         <div className='test-warning'>
             *please use this card
-            <br>
-            4242 4242 4242 4242  exp 01 21 cvv 123</br>
+           
+            4242 4242 4242 4242  exp 01 21 cvv 123
         </div>
         <StripeCheckoutButton price={total}/>
     </div>
